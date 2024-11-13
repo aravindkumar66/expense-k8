@@ -18,10 +18,10 @@ spec:
     metadata:
       labels:
         app: mysql
-      tier: db
-      project: expense
+        tier: db
+        project: expense
     spec:
       containers:
       - name: mysql
-        image: aravindkumarreddy66/mysql:v1
+        image: joindevops/mysql:v1
         
