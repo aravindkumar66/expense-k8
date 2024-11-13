@@ -20,6 +20,7 @@ spec:
         app: frontend
         tier: web
         project: expense
+    spec:
       containers:
       - name: frontend
         image: joindevops/frontend:v1
